@@ -1,0 +1,28 @@
+[Adblock Plus 2.0]
+! Title: YouTube Annoyances
+! Description: Remove/hide various annoyances on anime related websites.
+! Acknowledgements: This header template was copied from yokoffing.
+! Version: 14 December 2025
+! Syntax: AdBlock
+
+! =========================
+! EverythingMoe
+! =========================
+! Hide Random Sections
+everythingmoe.com###sec-donghua
+everythingmoe.com###sec-schedule
+everythingmoe.com###sec-tools
+everythingmoe.com###sec-quiz
+everythingmoe.com###sec-trend
+everythingmoe.com###sec-drama
+everythingmoe.com###sec-amv
+everythingmoe.com###sec-forums
+everythingmoe.com###sec-apps
+
+! =========================
+! Animepahe
+! =========================
+! Hide Fake Site Alert Banner
+animepahe.si##.alert.alert-top.alert-dismissible.fade.show.ann-fakesite
+! Hide Homepage Button
+animepahe.si##li.nav-item:nth-of-type(1) > .nav-link
