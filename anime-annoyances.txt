@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: YouTube Annoyances
+! Title:   Anime Annoyances
 ! Description: Remove/hide various annoyances on anime related websites.
 ! Acknowledgements: This header template was copied from yokoffing.
 ! Version: 14 December 2025
