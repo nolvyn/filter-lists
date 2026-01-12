@@ -1,0 +1,81 @@
+[Adblock Plus 2.0]
+! Title: Social Annoyances
+! Description: Remove/hide various annoyances on social media websites.
+! Acknowledgements: This header template was copied from yokoffing.
+! Version: 11 January 2026
+! Syntax: AdBlock
+
+! ====================================================================
+! YOUTUBE
+! ====================================================================
+! -----------------
+! Topbar Buttons
+! -----------------
+! Hide Voice Search Button
+www.youtube.com###voice-search-button
+! Hide Create Button
+www.youtube.com###end > div.style-scope.ytd-masthead > ytd-button-renderer.style-scope.ytd-masthead > yt-button-shape
+! Hide Notification Button
+www.youtube.com##ytd-notification-topbar-button-renderer
+
+! -----------------
+! Watch Page
+! -----------------
+! Hide Share Button
+www.youtube.com###actions-inner > div.style-scope.ytd-watch-metadata > .style-scope.ytd-watch-metadata > .top-level-buttons.style-scope.ytd-menu-renderer > yt-button-view-model.ytd-menu-renderer > .ytSpecButtonViewModelHost.style-scope.ytd-menu-renderer
+! Hide Download Button
+www.youtube.com##ytd-download-button-renderer
+! Hide Thanks Button
+www.youtube.com##ytd-button-renderer[aria-label*="Thanks" i]
+www.youtube.com###actions-inner > div.style-scope.ytd-watch-metadata > .style-scope.ytd-watch-metadata > div.style-scope.ytd-menu-renderer:nth-of-type(2)
+
+! -----------------
+! Left Sidebar
+! -----------------
+! Hide Left Sidebar Explore Section
+www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(3)
+! Hide Left Sidebar More From YouTube Section
+www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(4)
+! Hide Left Sidebar Legal/Misc Stuff Section
+www.youtube.com###guide-links-primary
+www.youtube.com###guide-links-secondary
+www.youtube.com###guide-renderer > div.style-scope.ytd-guide-renderer:nth-of-type(2) > div:nth-of-type(3) > div
+
+! Hide Left Sidebar Send Feedback Button
+www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(5) > div.style-scope.ytd-guide-section-renderer > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-of-type(4) > .yt-simple-endpoint.style-scope.ytd-guide-entry-renderer > tp-yt-paper-item.style-scope.ytd-guide-entry-renderer
+www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(5) > div.style-scope.ytd-guide-section-renderer > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-of-type(4) > .yt-simple-endpoint.style-scope.ytd-guide-entry-renderer
+! Hide Left Sidebar Help Button
+www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(5) > div.style-scope.ytd-guide-section-renderer > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-of-type(3) > .yt-simple-endpoint.style-scope.ytd-guide-entry-renderer > tp-yt-paper-item.style-scope.ytd-guide-entry-renderer
+www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(5) > div.style-scope.ytd-guide-section-renderer > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-of-type(3) > .yt-simple-endpoint.style-scope.ytd-guide-entry-renderer
+
+! Hide Left Sidebar Report History Button
+www.youtube.com##ytd-guide-entry-renderer a[href^="/reporthistory"]
+
+! -----------------
+! Mobile
+! -----------------
+! Hide Bottom Bar Shorts Button
+m.youtube.com##ytm-pivot-bar-item-renderer:nth-of-type(2)
+
+
+! ====================================================================
+! REDDIT
+! ====================================================================
+! Hide Share Button
+www.reddit.com##shreddit-comment-share-button
+www.reddit.com##shreddit-post-share-button
+www.reddit.com##button[data-testid="share"]
+
+! Post Page
+! Hide Right Sidebar Legal Stuff
+www.reddit.com##.text-neutral-content-weak.flex.flex-wrap.items-center
+! Hide Right Sidebar View Post In X Language
+www.reddit.com##div.px-md.text-neutral-content-weak:nth-of-type(5)
+
+! Hide Left Sidebar Games Section
+www.reddit.com##devvit-games-drawer
+www.reddit.com##games-section-badge-controller
+www.reddit.com###games_section
+! Hide Left Sidebar Custom Feed Section
+www.reddit.com##hr.w-100.my-sm.border-neutral-border-weak:nth-of-type(2)
+www.reddit.com##.z-2.box-border.flex.flex-col.mt-0.mb-0.pt-md.shrink-0.s\:shrink.w-full.min-h-screen-without-header.select-none > faceplate-expandable-section-helper:nth-of-type(1)
