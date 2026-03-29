@@ -30,28 +30,6 @@ www.youtube.com##ytd-button-renderer[aria-label*="Thanks" i]
 www.youtube.com###actions-inner > div.style-scope.ytd-watch-metadata > .style-scope.ytd-watch-metadata > div.style-scope.ytd-menu-renderer:nth-of-type(2)
 
 ! -----------------
-! Left Sidebar
-! -----------------
-! Hide Left Sidebar Explore Section
-www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(3)
-! Hide Left Sidebar More From YouTube Section
-www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(4)
-! Hide Left Sidebar Legal/Misc Stuff Section
-www.youtube.com###guide-links-primary
-www.youtube.com###guide-links-secondary
-www.youtube.com###guide-renderer > div.style-scope.ytd-guide-renderer:nth-of-type(2) > div:nth-of-type(3) > div
-
-! Hide Left Sidebar Send Feedback Button
-www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(5) > div.style-scope.ytd-guide-section-renderer > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-of-type(4) > .yt-simple-endpoint.style-scope.ytd-guide-entry-renderer > tp-yt-paper-item.style-scope.ytd-guide-entry-renderer
-www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(5) > div.style-scope.ytd-guide-section-renderer > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-of-type(4) > .yt-simple-endpoint.style-scope.ytd-guide-entry-renderer
-! Hide Left Sidebar Help Button
-www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(5) > div.style-scope.ytd-guide-section-renderer > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-of-type(3) > .yt-simple-endpoint.style-scope.ytd-guide-entry-renderer > tp-yt-paper-item.style-scope.ytd-guide-entry-renderer
-www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(5) > div.style-scope.ytd-guide-section-renderer > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-of-type(3) > .yt-simple-endpoint.style-scope.ytd-guide-entry-renderer
-
-! Hide Left Sidebar Report History Button
-www.youtube.com##ytd-guide-entry-renderer a[href^="/reporthistory"]
-
-! -----------------
 ! Mobile
 ! -----------------
 ! Hide Bottom Bar Shorts Button
